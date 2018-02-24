@@ -7,8 +7,17 @@
  */
 
 const solution = (a, b, c) => {
-  return 0;
-};
+  var largest = 0;
+  if(a>b){
+    largest = a;
+  }else{
+    largest = b;
+  }
+  if(c > largest){
+    largest = c;
+  }
+  return largest;
+ };
 
 module.exports = {
   solution,
