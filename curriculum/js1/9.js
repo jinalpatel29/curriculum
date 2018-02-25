@@ -5,9 +5,12 @@
  */
 
 const solution = (a) => {
-  return 0;
-};
-
+  if( a > 1 ) {
+    let temp = a + 7;
+    return temp;
+  }
+    return a * 7;
+}
 module.exports = {
   solution,
 };
